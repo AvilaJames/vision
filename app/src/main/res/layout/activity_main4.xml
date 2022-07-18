@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="447dp"
+        android:layout_height="813dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ttt" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="557dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/a" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="557dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/b" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/c" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/d" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="103dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/e" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="550dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

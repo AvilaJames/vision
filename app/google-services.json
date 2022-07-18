@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367948558174",
+    "project_id": "test-d55c1",
+    "storage_bucket": "test-d55c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367948558174:android:568e205ae972fa230869cf",
+        "android_client_info": {
+          "package_name": "com.avila.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367948558174-1gq4haed78p206hduu5bn4kmueuvr4hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRgTVtIdewWVxtOnt_1nQggRKZ2BDeSEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367948558174-1gq4haed78p206hduu5bn4kmueuvr4hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
